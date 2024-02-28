@@ -16,10 +16,28 @@ body {
 }
 
 .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 100vh;
     width: 67vw;
+    background-color: #f9fafb;
+}
+
+.mumbojumbo,
+.form-container {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: #ffffff;
 }
 
 .row {
     display: flex;
+    gap: 7%;
 }
